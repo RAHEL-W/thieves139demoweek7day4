@@ -1,4 +1,4 @@
-const API_key  = '37b430deb7fe66a35f44d4a7d7bc40da'
+
 
 
 const getToken =  async (city_name) =>{
