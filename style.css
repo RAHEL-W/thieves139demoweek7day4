@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+height: 100vh;
+}
+.margin{
+    margin-top: 20%;
+}
+.all{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   width: 350px;
+   height: 450px;
+
+
+    
+}
+
+input{
+    
+    width: 260px;
+    height: 28px;
+    border-color: azure;
+    border-radius: 15px;
+    padding-left: 10px;
+
+}
+
+button{
+    border-color: azure;
+    height: 35px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px;
+   
+}
+
+#card{
+    margin-top: 30px;
+    width: 330px;
+    /* background-color: white; */
+    border-radius: 15px;
+    
+
+}
+
+
+/* #img_forecast{
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+
+} */
+#img_forecast, img{
+    width: 200px;
+    margin: auto;
+}
+
+.Location_Tempratur{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.Location_Tempratur, h1{
+    margin-top: 8px;
+}
+
+.Forecast_High_Low{
+display: flex;
+align-items: center;
+flex-direction: column; 
+margin: 20px 0;
+
+}
+
+#High_Low{
+    display: flex;
+    flex-direction: row; 
+    
+  
+   
+}
+
+#High_Low, h3{
+    margin: 5px 8px;
+}
+
+.Humidity{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
+
+
+.Humidity img{
+    width: 50px;
+}
+
+
+.Humidity_p{
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+
+.Wind_speed{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
+
+
+.Wind_speed img{
+    width: 50px;
+}
+
+
+.Wind_speed_p{
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+
+.Humidity_Wind_speed{
+    display: flex;
+    justify-content: space-between;
+    
+    flex-direction: row;
+}
